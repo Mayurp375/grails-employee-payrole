@@ -23,5 +23,7 @@
     <g:submitButton name="Save"/>
 
 </g:form>
+<a href="${createLink(controller: 'employee',action: 'edit')}">Edit Employee</a>
+
 </body>
 </html>

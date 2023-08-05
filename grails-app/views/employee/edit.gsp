@@ -21,7 +21,9 @@
     <label>Age </label>
     <g:textField name="age" value="${employeeInstance?.age}"/><br>
 
-    <g:submitButton name="Update"/>
+
+    <a href="${createLink(controller: 'employee',action: 'update')}"><g:submitButton name="Update" /></a>
 </g:form>
+
 </body>
 </html>
